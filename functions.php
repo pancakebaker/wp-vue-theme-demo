@@ -34,3 +34,19 @@ add_action('wp_footer', function () {
         }
     }
 }, 5);
+
+function demo_get_vite_asset_uri($entry = 'src/main.ts') {
+    $manifest_path = get_stylesheet_directory() . '/dist/manifest.json';
+
+    if (!file_exists($manifest_path)) {
+        return '';
+    }
+
+    $manifest = json_decode(file_get_contents($manifest_path), true);
+
+    if (!isset($manifest[$entry])) {
+        return '';
+    }
+
+    return get_stylesheet_directory_uri() . '/dist/' . $manifest[$entry]['file'];
+}
