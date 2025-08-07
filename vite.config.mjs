@@ -5,7 +5,7 @@ import path from 'path';
 export default defineConfig({
   plugins: [vue()],
   build: {
-    manifest: 'manifest.json', // this puts it in /dist
+    manifest: 'manifest.json',
     outDir: 'dist',
     emptyOutDir: true,
     rollupOptions: {
