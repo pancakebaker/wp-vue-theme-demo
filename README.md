@@ -1,6 +1,6 @@
 # WP Vue Theme Demo
 
-A modern WordPress theme built with **Vue 3**, **Vite**, **Tailwind CSS v4**, and **TypeScript**, designed to work inside a **Bedrock** environment.
+A starter WordPress theme using Vue 3, Vite, Tailwind CSS v4, and TypeScript, built for Bedrock. For experimenting with modern front-end workflows in WordPress.
 
 > ⚡️ Lightning-fast front-end. 🧩 Vue-powered components. 🎨 Tailwind CSS styling.
 
