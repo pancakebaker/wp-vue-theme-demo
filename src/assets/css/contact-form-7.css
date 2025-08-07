@@ -1,0 +1,78 @@
+/* Wrap the entire form */
+.wpcf7 {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f9fafb;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form rows */
+.wpcf7-form p {
+  margin-bottom: 1.5rem;
+}
+
+/* Labels */
+.wpcf7-form label {
+  display: block;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 0.5rem;
+}
+
+/* Input + Textarea styles */
+.wpcf7-form-control.wpcf7-text,
+.wpcf7-form-control.wpcf7-email,
+.wpcf7-form-control.wpcf7-textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  color: #111827;
+  background-color: white;
+  transition: border-color 0.2s ease;
+}
+
+.wpcf7-form-control:focus {
+  border-color: #6366f1; /* Tailwind indigo-500 */
+  outline: none;
+}
+
+/* Submit button */
+.wpcf7-submit {
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.wpcf7-submit:hover {
+  background-color: #4f46e5;
+}
+
+/* Messages */
+.wpcf7-response-output {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 0.375rem;
+  font-weight: 500;
+}
+
+.wpcf7-mail-sent-ok {
+  color: #15803d;
+  background-color: #dcfce7;
+  border: 1px solid #bbf7d0;
+}
+
+.wpcf7-validation-errors,
+.wpcf7-not-valid-tip {
+  color: #b91c1c;
+  background-color: #fee2e2;
+  border: 1px solid #fecaca;
+}

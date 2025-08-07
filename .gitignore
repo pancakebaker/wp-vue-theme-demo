@@ -1,0 +1,38 @@
+# Node
+node_modules/
+dist/
+.vite/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vite
+.env
+.env.*.local
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# TypeScript
+*.tsbuildinfo
+
+# Build artifacts
+*.local
+*.tmp
+*.temp
+
+# Composer (if used in theme directly, though usually not)
+vendor/
+
+# Optional: Ignore IDE/project files
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore build output if stored in a different location
+/build/
+/public/build/
